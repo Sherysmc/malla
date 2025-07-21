@@ -20,20 +20,20 @@ h1 {
 
 #malla {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(318px, 1fr));
   gap: 1rem;
   padding: 1rem;
 }
 body {
   font-family: Arial, sans-serif;
-  margin: 20px;
+  margin: 18px;
 }
 
 .semestre {
   border: 2px solid #666;
-  border-radius: 8px;
-  padding: 10px;
-  margin-bottom: 15px;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 13px;
   background-color: #fafafa;
 }
 
@@ -42,9 +42,9 @@ body {
 }
 
 .asignatura {
-  padding: 6px;
-  margin: 4px 0;
-  border-radius: 4px;
+  padding: 4px;
+  margin: 2px 0;
+  border-radius: 2px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,9 +55,9 @@ body {
 }
 
 input[type=number] {
-  width: 60px;
-  padding: 4px;
-  border-radius: 4px;
+  width: 58px;
+  padding: 2px;
+  border-radius: 2px;
   border: 1px solid #ccc;
 }
 
@@ -83,7 +83,7 @@ input[type=number] {
 
 .semestre {
   background: white;
-  border-radius: 10px;
+  border-radius: 8px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -103,9 +103,9 @@ input[type=number] {
 }
 
 .asignatura input[type="number"] {
-  width: 60px;
+  width: 58px;
   padding: 0.2rem;
-  margin-left: 10px;
+  margin-left: 8px;
   font-size: 0.9rem;
 }
 
@@ -134,8 +134,8 @@ input[type=number] {
   width: 80%;
   margin: 1rem auto;
   background: #ccc;
-  height: 20px;
-  border-radius: 10px;
+  height: 18px;
+  border-radius: 8px;
   overflow: hidden;
 }
 
