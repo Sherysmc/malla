@@ -33,26 +33,12 @@ h1 {
 }
 
 #malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);  /* 5 columnas por fila */
+  gap: 1rem;
   padding: 1rem;
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.grupo-semestres {
-  margin-bottom: 2rem;
-}
-
-.grupo-semestres h2 {
-  text-align: center;
-  font-size: 1.2rem;
-  color: #004d40;
-  margin-bottom: 1rem;
-}
-
-.fila-semestres {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
 }
 
 .semestre {
@@ -64,6 +50,59 @@ h1 {
   font-size: 0.9rem;
 }
 
+.semestre h2 {
+  font-size: 1.1rem;
+  color: #00796b;
+  margin-top: 0;
+}
+
+.asignatura {
+  border-left: 6px solid #ccc;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.asignatura label {
+  flex-grow: 1;
+}
+
+.asignatura input[type="number"] {
+  width: 50px;
+  padding: 0.2rem;
+  margin-left: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.aprobada {
+  border-left-color: #4caf50;
+  background: #e8f5e9;
+}
+
+.reprobada {
+  border-left-color:  #f44336;
+  background: #ffebee;
+}
+
+.pendiente {
+  border-left-color: #9e9e9e;
+  background: #e3f2fd;
+}
+
+.bloqueada {
+  border-left-color: #9e9e9e;
+  background: #eeeeee;
+  opacity: 0.7;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
 footer {
   text-align: center;
   font-size: 0.9rem;
@@ -71,9 +110,9 @@ footer {
   color: #666;
 }
 
-/* Opcional: responsive en pantallas pequeñas */
-@media (max-width: 768px) {
-  .fila-semestres {
+/* ✅ Adaptación móvil */
+@media (max-width: 900px) {
+  #malla {
     grid-template-columns: repeat(2, 1fr);
   }
 }
