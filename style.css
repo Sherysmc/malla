@@ -146,3 +146,19 @@ grid-template-columns: repeat(5, 1fr);
   max-width: 1200px;
   margin: auto;
 }
+.grupo-semestres {
+  margin-bottom: 2rem;
+}
+
+.grupo-semestres h2 {
+  text-align: center;
+  color: #004d40;
+  margin-bottom: 1rem;
+}
+
+.fila-semestres {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
