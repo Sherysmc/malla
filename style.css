@@ -138,3 +138,11 @@ grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
   padding: 1rem;
 }
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
