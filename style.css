@@ -26,14 +26,14 @@ h1 {
 }
 body {
   font-family: Arial, sans-serif;
-  margin: 15px;
+  margin: 10px;
 }
 
 .semestre {
   border: 2px solid #666;
   border-radius: 6px;
   padding: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   background-color: #fafafa;
 }
 
@@ -55,7 +55,7 @@ body {
 }
 
 input[type=number] {
-  width: 50px;
+  width: 30px;
   padding: 2px;
   border-radius: 2px;
   border: 1px solid #ccc;
@@ -83,7 +83,7 @@ input[type=number] {
 
 .semestre {
   background: white;
-  border-radius: 8px;
+  border-radius: 6px;
   padding: 1rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -103,7 +103,7 @@ input[type=number] {
 }
 
 .asignatura input[type="number"] {
-  width: 50px;
+  width: 30px;
   padding: 0.2rem;
   margin-left: 8px;
   font-size: 0.9rem;
@@ -134,7 +134,7 @@ input[type=number] {
   width: 80%;
   margin: 1rem auto;
   background: #ccc;
-  height: 15px;
+  height: 10px;
   border-radius: 8px;
   overflow: hidden;
 }
