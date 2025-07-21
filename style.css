@@ -9,7 +9,7 @@ body {
 header {
   background: #004d40;
   color: white;
-  padding: 1rem;
+  padding: 1.3rem;
   text-align: center;
 }
 
@@ -21,19 +21,19 @@ h1 {
 #malla {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 0.5rem;
-  padding: 0.8rem;
+  gap: 0.8rem;
+  padding: 1rem;
 }
 body {
   font-family: Arial, sans-serif;
-  margin: 10px;
+  margin: 15px;
 }
 
 .semestre {
   border: 2px solid #666;
-  border-radius: 4px;
-  padding: 6px;
-  margin-bottom: 8px;
+  border-radius: 6px;
+  padding: 8px;
+  margin-bottom: 10px;
   background-color: #fafafa;
 }
 
@@ -84,29 +84,29 @@ input[type=number] {
 .semestre {
   background: white;
   border-radius: 6px;
-  padding: 1rem;
+  padding: 1.3rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
   margin-top: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #00796b;
 }
 
 .asignatura {
   border-left: 6px solid #ccc;
-  padding: 0.8rem;
-  margin: 0.8rem 0;
+  padding: 1rem;
+  margin: 1rem 0;
   border-radius: 6px;
   background: #f1f1f1;
 }
 
 .asignatura input[type="number"] {
   width: 25px;
-  padding: 0.2rem;
+  padding: 0.5rem;
   margin-left: 8px;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .aprobada {
@@ -132,7 +132,7 @@ input[type=number] {
 
 #barra-progreso {
   width: 80%;
-  margin: 0.5rem auto;
+  margin: 0.8rem auto;
   background: #ccc;
   height: 10px;
   border-radius: 8px;
@@ -147,7 +147,7 @@ input[type=number] {
 
 footer {
   text-align: center;
-  font-size: 0.8rem;
-  padding: 0.8rem;
+  font-size: 1rem;
+  padding: 1rem;
   color: #666;
 }
