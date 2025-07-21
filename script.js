@@ -339,7 +339,7 @@ const asignaturas = [
 function crearMalla() {
   const contenedor = document.getElementById("malla");
  contenedor.innerHTML = "";
-
+const semestres = {};
   asignaturas.forEach(asig => {
     const { semestre } = asig;
     if (!semestres[semestre]) {
