@@ -125,3 +125,16 @@ footer {
   padding: 1rem;
   color: #666;
 }
+grid-template-columns: repeat(5, 1fr);
+.semestre {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+#malla {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);  /* Fuerza 5 columnas */
+  gap: 1rem;
+  padding: 1rem;
+}
