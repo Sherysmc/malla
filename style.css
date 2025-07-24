@@ -75,7 +75,7 @@ input[type=number] {
 
 .bloqueada {
   background-color: #dcdcdc;
-  color:  #f6f3c6;
+  color:  #333;
   pointer-events: none;
   opacity: 0.6;
   cursor: not-allowed;
