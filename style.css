@@ -20,9 +20,9 @@ h1 {
 
 #malla {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.9rem;
+  padding: 0.9rem;
 }
 body {
   font-family: Arial, sans-serif;
@@ -84,20 +84,20 @@ input[type=number] {
 .semestre {
   background: white;
   border-radius: 10px;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .semestre h2 {
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #00796b;
 }
 
 .asignatura {
   border-left: 6px solid #ccc;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
   border-radius: 6px;
   background: #f1f1f1;
 }
@@ -106,7 +106,7 @@ input[type=number] {
   width: 60px;
   padding: 0.2rem;
   margin-left: 10px;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .aprobada {
