@@ -70,7 +70,7 @@ input[type=number] {
 }
 
 .pendiente {
-  background-color: #333; /* amarillo claro */
+  background-color: #000; /* amarillo claro */
 }
 
 .bloqueada {
@@ -90,7 +90,7 @@ input[type=number] {
 
 .semestre h2 {
   margin-top: 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #00796b;
 }
 
